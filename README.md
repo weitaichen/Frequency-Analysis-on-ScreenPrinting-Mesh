@@ -28,4 +28,4 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 <p align="center"><img src="/image/croppedImage.png" height="30%" width="30%"></p><br />
 
 * Output image
-<p align="center"><img src="labeledImage.jpg" height="30%" width="30%"></p>
+<p align="center"><img src="/image/labeledImage.png" height="30%" width="30%"></p>
