@@ -19,7 +19,7 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Build, run, and have fun! <br />
 
 ## Goal of this work
-* The goal of this program is to find and label mesh holes on screen printed sensors. The results of each step are shown below: 
+* The goal of this program is to find and label mesh defects on screen printed sensors. The results of each step are shown below: 
 
 * Input image
 <p align="center"><img src="/image/screenPrinting.png" height="45%" width="45%"></p><br />
