@@ -22,16 +22,16 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * The goal of this program is to find and label mesh holes on screen printed sensors. The results of each step are shown below: 
 
 * Input image
-<p align="center"><img src="/image/screenPrinting.png" height="30%" width="30%"></p><br />
+<p align="center"><img src="/image/screenPrinting.png" height="30%" width="60%"></p><br />
 
 * Frequency domain
 <p align="center"><img src="/image/fequencyDomain.jpg" height="30%" width="30%"></p><br />
 
 * Extract mesh area
-<p align="center"><img src="/image/detectedMesh.jpg" height="30%" width="30%"></p><br />
+<p align="center"><img src="/image/detectedMesh.png" height="30%" width="30%"></p><br />
 
 * Cropped image
-<p align="center"><img src="/image/croppedImage.jpg" height="30%" width="30%"></p><br />
+<p align="center"><img src="/image/croppedImage.png" height="30%" width="30%"></p><br />
 
 * Labeled image
 <p align="center"><img src="/image/labeledImage.png" height="30%" width="30%"></p>
