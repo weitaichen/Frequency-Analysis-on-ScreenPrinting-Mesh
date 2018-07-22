@@ -16,16 +16,22 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Add library dependency:Project->Properties->linker->Input->Additional dependecies->opencv_world300d.lib<br />
 * Download msvcp120d.dll and msvcr120d.dll to main.exe folder <br />
 * Copy all file into your project folder<br />
-* Build project and find main.exe directory, put lena.png file into that folder <br />
-* Open cmd.exe and go to your debug directory where main.exe was generated <br />
-* Enter command "main.exe lena.png 1" <br />
-* Have fun! <br />
+* Build, run, and have fun! <br />
 
 ## Goal of this work
-* The goal of this program is to detect contour of multiple dice and count numbers of dots
+* The goal of this program is to find and label mesh holes on screen printed sensors. The results of each step are shown below: 
 
 * Input image
-<p align="center"><img src="/image/croppedImage.png" height="30%" width="30%"></p><br />
+<p align="center"><img src="/image/screenPrinting.png" height="30%" width="30%"></p><br />
 
-* Output image
+* Frequency domain
+<p align="center"><img src="/image/fequencyDomain.jpg" height="30%" width="30%"></p><br />
+
+* Extract mesh area
+<p align="center"><img src="/image/detectedMesh.jpg" height="30%" width="30%"></p><br />
+
+* Cropped image
+<p align="center"><img src="/image/croppedImage.jpg" height="30%" width="30%"></p><br />
+
+* Labeled image
 <p align="center"><img src="/image/labeledImage.png" height="30%" width="30%"></p>
