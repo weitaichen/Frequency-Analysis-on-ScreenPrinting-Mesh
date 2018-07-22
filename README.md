@@ -18,20 +18,24 @@ Above are tutorial webisites which tell you how to install OpenCV library on vis
 * Copy all file into your project folder<br />
 * Build, run, and have fun! <br />
 
-## Goal of this work
+## How does this work
 * The goal of this program is to find and label mesh defects on screen printed sensors. The results of each step are shown below: 
 
-* Input image
+* Input image:
 <p align="center"><img src="/image/screenPrinting.png" height="45%" width="45%"></p><br />
 
-* Frequency domain
+* Frequency domain:
+input image is transfer to frequnecy domain using discrete Fourier transform function which is built in OpenCV. A manual binary threshold then applied on frequency domain to extract major response in frequency domain. 
 <p align="center"><img src="/image/fequencyDomain.jpg" height="45%" width="45%"></p><br />
 
-* Cropped image
-<p align="center"><img src="/image/croppedImage.png" height="30%" width="30%"></p><br />
-
 * Extract mesh area
+The reconstructed mesh area is shifting in horizontal direction. Correct mesh position is extracted with maximum mean gray-level of input image in mesh area.
 <p align="center"><img src="/image/detectedMesh.png" height="30%" width="30%"></p><br />
 
+* Cropped image
+Since there is losing information near edge on the reconstructed mesh area. So a half-size image is cropped from center of input image.
+<p align="center"><img src="/image/croppedImage.png" height="30%" width="30%"></p><br />
+
 * Labeled image
+The result is the detected and labeled mesh detects area. The psudo colors are used to visualized separate area in different labels.
 <p align="center"><img src="/image/labeledImage.png" height="30%" width="30%"></p>
